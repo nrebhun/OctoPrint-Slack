@@ -169,4 +169,5 @@ class SlackPlugin(octoprint.plugin.SettingsPlugin,
             return
 
 __plugin_name__ = "Slack"
+__plugin_pythoncompat__ = ">=2.7,<4"
 __plugin_implementation__ = SlackPlugin()
